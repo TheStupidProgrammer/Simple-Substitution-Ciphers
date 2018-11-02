@@ -14,6 +14,7 @@ This program uses a two-dimensional string array to store the alphabet in both u
 <br>
 <br>
 <br>
+<br>
 <img src="https://github.com/TheStupidProgrammer/Simple-Substitution-Ciphers/blob/master/Screenshots/AffineCipher_Code_Example.png?raw=true" align="left"/>
 Enciphering with the Affine Cipher is somewhat simple compared to the Caesar Cipher, all you have to do is enter the text you want enciphered. The program will then check each character in the string against each character in the alphabet table, if the character matches the character in the table, it will store the number the character is found at in the table in the y variable. Using an equation (5y+8)mod26, it will calculate the new number and find the appropriate character in the alphabet table. Then it will replace the letter with the new character.
 <br>
