@@ -28,7 +28,7 @@ The Affine deciphering algorithm basically does what it's ciphering counterpart 
 
 # Motivation
 
-My motivation to make this was to finish a project for my class, using all of the required fields like arrays, strings, and sequential access files
+My motivation to make this was to finish a project for my class, using all of the required fields like arrays, strings, and sequential access files. I first thought of making it like one of thos decoder rings, like the one in The Christmas Story, but I couldn't figure out what they're called so I resorted to these two ciphers. My initial inspiration though, was when I was making a program that would convert single words into Pig-Latin. I found that making that was somewhat entertaining, so I thought that making a program that uses other ciphers would be a bit more entertaining.
 
 # Installation
 
@@ -36,4 +36,10 @@ This project is recommended to be run by Microsoft Visual Studio. However, if in
 
 # Tests
 
-If you were to type the pangram, "The quick brown fox jumped over the lazy dog", you would get these outputs. With a shift code of three, the Caesar Cipher would make the sentence, "Qeb nrfzh yoltk clu grjmba lsbo qeb ixwv ald". Alternatively, the Affine Cipher would say, "Zrc kewsg npaov hat beqfcx ajcp zrc lidy xam".
+Using a pangram is very useful to test my program, as a pangram is a sentence that contains every letter of the alphabet at least once.
+So, if you were to type the pangram "The quick brown fox jumped over the lazy dog", you would get these outputs. With a shift code of three, the Caesar Cipher would make the sentence, "Qeb nrfzh yoltk clu grjmba lsbo qeb ixwv ald". Alternatively, the Affine Cipher would say, "Zrc kewsg npaov hat beqfcx ajcp zrc lidy xam".
+I like to use that pangram because it contains more than one zero, this way I know that the output isn't just a bunch of random characters from the alphabet array.
+
+# license
+
+This program is public domain
