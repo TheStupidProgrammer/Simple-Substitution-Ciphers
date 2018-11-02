@@ -1,6 +1,6 @@
 ﻿  FinalProject.cpp
-c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(335): warning C4018: '<=': signed/unsigned mismatch
-c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(372): warning C4018: '<=': signed/unsigned mismatch
-c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(395): warning C4018: '<=': signed/unsigned mismatch
-c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(419): warning C4018: '<=': signed/unsigned mismatch
+c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(330): warning C4018: '<=': signed/unsigned mismatch
+c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(367): warning C4018: '<=': signed/unsigned mismatch
+c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(390): warning C4018: '<=': signed/unsigned mismatch
+c:\users\lxksp\source\repos\finalproject\finalproject\finalproject.cpp(414): warning C4018: '<=': signed/unsigned mismatch
   FinalProject.vcxproj -> C:\Users\lxksp\source\repos\FinalProject\Debug\FinalProject.exe
