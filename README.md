@@ -6,8 +6,9 @@ This simple subsitution cipher would allow you to easily encrypt and decipher me
 
 This program uses a two-dimensional string array to store the alphabet in both uppercase and lowercase, both encryption functions regularly use this array as reference.
 <img src="https://github.com/TheStupidProgrammer/Simple-Substitution-Ciphers/blob/master/Screenshots/Alphabet_Array.png?raw=true" align="left"/>
-
-
+<br>
+<br>
+<br>
  Enciphering with the Caesar Cipher will ask for a shift code, this number will shift the alphabet left however many characters, starting the alphabet at the selected letter. <img src="https://github.com/TheStupidProgrammer/Simple-Substitution-Ciphers/blob/master/Screenshots/CaesarCipher_Code_Example.png?raw=true" align="left"/> How it works is by subtracting your number from a total of 26, it then uses the difference to find the appropriate character in the Alphabet table. Transcribing the entire alphabet from the table to a new array marked cipherAlphabet. Each time it transcribes a character from the Alphabet table to the new array, it will add 1 to the number, eventually when the number reaches 26, the variable is reset to 0 so it will transcribe A and so on.
 <img src="https://github.com/TheStupidProgrammer/Simple-Substitution-Ciphers/blob/master/Screenshots/Menu_Navigation_Example.png?raw=true" align="right"/>Next, it will ask you for the text you wish to encipher. Entering the text will store your input in a string variable, This string variable is then checked against the alphabet array character by character. If there is an A in your string, it will match it with the A in the alphabet table. If the alphabet starts from 0-25, A-Z, the function would check to see what's at the 0th place in the cipherAlphabet array and replace the character in the inital string with what it found.
 <br>
