@@ -1,10 +1,11 @@
-# Synopsis
+# Introduction
 
-This simple subsitution cipher would allow you to easily make ciphered messages that can be solved by hand, or decipher messages so you don't have to by hand.
+This simple subsitution cipher would allow you to easily encrypt and decipher messages that can be solved by hand. 
 
 # Code Example
 
 This program uses a two-dimensional string array to store the alphabet in both uppercase and lowercase, both encryption functions regularly use this array as reference.
+<img src="" align="left" />
 Enciphering with the Caesar Cipher will ask for a shift code, this number will shift the alphabet left however many characters, starting the alphabet at the selected letter. How it works is by subtracting your number from a total of 26, it then uses the difference to find the appropriate character in the Alphabet table. Transcribing the entire alphabet from the table to a new array marked cipherAlphabet. Each time it transcribes a character from the Alphabet table to the new array, it will add 1 to the number, eventually when the number reaches 26, the variable is reset to 0 so it will transcribe A and so on.
 Next, it will ask you for the text you wish to encipher. Entering the text will store your input in a string variable, This string variable is then checked against the alphabet array character by character. If there is an A in your string, it will match it with the A in the alphabet table. If the alphabet starts from 0-25, A-Z, the function would check to see what's at the 0th place in the cipherAlphabet array and replace the character in the inital string with what it found.
 Enciphering with the Affine Cipher is somewhat simple compared to the Caesar Cipher, all you have to do is enter the text you want enciphered. The program will then check each character in the string against each character in the alphabet table, if the character matches the character in the table, it will store the number the character is found at in the table in the y variable. Using an equation (5y+8)mod26, it will calculate the new number and find the appropriate character in the alphabet table. As a result, the character will be replaced by what's found in the table. So, that's about it for the ciphering.
